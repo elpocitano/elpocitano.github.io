@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Venta Terreno</title>
+  <!-- Bootstrap -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"
+    integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous" />
+  <link rel="stylesheet" type="text/css" href="icons/font/bootstrap-icons.css">
+  <!-- Animate.css -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="css/estilos.css" />
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+  <!-- Fuente Roboto desde Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,700&display=swap" rel="stylesheet">
+
+<body>
+  <!-- Box Logo y datos -->
+  <div class="header-container">
+    <div class="header-container">
+      <div class="header-column">
+        <div class="logo">
+          <img src="logo/logo2.png" alt="Logo de la empresa" style="width: 250px; height: 50px;">
+          <h1>Inmobiliaria</h1>
+        </div>
+      </div>
+      <div class="header-column">
+        <div class="icon">
+          <img src="icons/icons8-volumen-del-timbre-60.png" alt="Icono 1">
+          <span>+54 11 496 4565</span>
+        </div>
+      </div>
+      <div class="header-column">
+        <div class="icon">
+          <img src="icons/icono2.svg" alt="Icono 2">
+          <span>info@perezfontinmobiliaria.com</span>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Barra de Navegacion -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-green">
+    <div class="container-fluid">
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav mx-auto w-60">
+          <li class="nav-item">
+            <a class="nav-link" href="index.html">Inicio</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" id="ventaDropdown" role="button"
+              data-bs-toggle="dropdown" aria-expanded="false">
+              Venta
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="ventaDropdown">
+              <li><a class="dropdown-item" href="ventacasa.html">Casa</a></li>
+              <li><a class="dropdown-item" href="ventadepartamento.html">Departamento</a></li>
+              <li><a class="dropdown-item" href="ventaterreno.html">Terreno</a></li>
+            </ul>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" id="alquilerDropdown" role="button"
+              data-bs-toggle="dropdown" aria-expanded="false">
+              Alquiler
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="alquilerDropdown">
+              <li><a class="dropdown-item" href="alqcasa.html">Casa</a></li>
+              <li><a class="dropdown-item" href="alqdepartamento.html">Departamento</a></li>
+              <li><a class="dropdown-item" href="alqterreno.html">Terreno</a></li>
+            </ul>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="blog.html">
+              <i class="fas fa-newspaper"></i> Blog
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="cotizacion.html">Cotización</a>
+          </li>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="contacto.html">Contacto</a>
+          </li>
+        </ul>
+        <form class="form-inline d-flex align-items-center">
+          <input class="form-control mr-2" type="search" placeholder="Buscar">
+          <button class="btn btn-outline-light" type="submit">Buscar</button>
+        </form>
+      </div>
+    </div>
+  </nav>
+  <!-- Seccion cards Propiedades Destacadas-->
+  <div class="">
+    <div class="container mt-5">
+      <h1 class="text-center mb-5 titulo-catalogo">PROPIEDADES DESTACADAS</h1>
+      <a href="pagina1.html" style="display: block; font-weight: 800; font-size: 40px; color:white; margin-bottom: 10px;">Alquiler</a>
+      <div class="row">
+        <div class="col-md-4">
+          <div class="card h-100">
+            <img src="img/blog/2.jpg" class="card-img-top img-card-propiedades" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">CHECK-IN RÁPIDO - 21-05-2022 </h5>
+              <p class="card-text">Haz el check-in online y accede a la mayoría de nuestras unidades con tu smartphone.</p>
+              <a href="ruta_de_la_pagina.html" class="btn btn-green btn-lg">Ver</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card h-100">
+            <img src="img/blog/2.jpg" class="card-img-top img-card-propiedades" alt="...">
+            <div class="card-body d-flex flex-column justify-content-center align-items-center">
+              <h5 class="card-title">DESC. BALNEARIOS - 12-06-2022</h5>
+              <a href="ruta_de_la_pagina.html" class="btn btn-green btn-lg">Ver</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card h-100">
+            <img src="img/blog/2.jpg" class="card-img-top img-card-propiedades" alt="...">
+            <div class="card-body d-flex flex-column justify-content-center align-items-center">
+              <h5 class="card-title">DESC. BALNEARIOS - 12-06-2022</h5>
+              <a href="ruta_de_la_pagina.html" class="btn btn-green btn-lg">Ver</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-4">
+          <div class="card h-100">
+            <img src="img/blog/2.jpg" class="card-img-top img-card-propiedades" alt="...">
+            <div class="card-body d-flex flex-column justify-content-center align-items-center">
+              <h5 class="card-title">DESC. BALNEARIOS - 12-06-2022</h5>
+              <a href="ruta_de_la_pagina.html" class="btn btn-green btn-lg">Ver</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card h-100">
+            <img src="img/blog/2.jpg" class="card-img-top img-card-propiedades" alt="...">
+            <div class="card-body d-flex flex-column justify-content-center align-items-center">
+              <h5 class="card-title">DESC. BALNEARIOS - 12-06-2022</h5>
+              <a href="ruta_de_la_pagina.html" class="btn btn-green btn-lg">Ver</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card h-100">
+            <img src="img/blog/2.jpg" class="card-img-top img-card-propiedades" alt="...">
+            <div class="card-body d-flex flex-column justify-content-center align-items-center">
+              <h5 class="card-title">DESC. BALNEARIOS - 12-06-2022</h5>
+              <a href="ruta_de_la_pagina.html" class="btn btn-green btn-lg">Ver</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+    <!-- Footer -->
+    <footer>
+      <div class="container">
+        <div class="footer-content">
+          <div class="footer-column"><br><br><br>
+            <div class="d-flex flex-column align-items-center">
+              <img src="logo/logo2neg.png" alt="Logo" style="width: 250px; height: 50px;">
+              <h1 class="text-center">Inmobiliaria</h1>
+            </div>
+          </div>
+          <div class="footer-column">
+            <br>
+            <h4>Links Rápidos</h4>
+            <hr style="border-top: 4px solid green; width: 70%; margin-bottom: 0;">
+            <br><br>
+
+            <a href="contacto.html">&#10006; Contacto</a> <br>
+            <a href="cotizacion.html">&#10006; Cotizacion</a><br>
+            <a href="blog.html">&#10006; Blog</a>
+
+          </div>
+          <div class="footer-column">
+            <br>
+            <h4>Contáctanos</h4>
+            <hr style="border-top: 4px solid green; width: 68%; margin-bottom: 0;">
+            <br>
+            <p>Av. Libertador 450 6to A</p>
+            <p>CABA</p>
+            <p>+54 11 496 4565</p>
+            <p>info@perezfontinmobiliaria.com</p>
+            <p>Matricula= CPI 45874</p>
+          </div>
+          <div class="footer-column">
+            <br>
+            <h4>Links Redes</h4>
+            <hr style="border-top: 4px solid green; width: 68%; margin-bottom: 0;">
+            <br><br><br>
+            <a href="red-social-1.html"><img src="icons/icons8-instagram-50.png" alt="Icono 1"
+                style="width: 50px; height: 50px;"></a>
+            <a href="red-social-2.html"><img src="icons/icons8-whatsapp-50.png" alt="Icono 2"
+                style="width: 50px; height: 50px;"></a>
+            <a href="red-social-3.html"><img src="icons/icons8-facebook-50.png" alt="Icono 3"
+                style="width: 50px; height: 50px;"></a>
+            <br>
+            <a href="red-social-4.html"><img src="icons/icons8-twitter-50.png" alt="Icono 4"
+                style="width: 50px; height: 50px;"></a>
+            <a href="red-social-3.html"><img src="icons/icons8-linkedin-50.png" alt="Icono 3"
+                style="width: 50px; height: 50px;"></a>
+            <a href="red-social-4.html"><img src="icons/icons8-youtube-50.png" alt="Icono 4"
+                style="width: 50px; height: 50px;"></a>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <!-- Bootstrap -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
+      crossorigin="anonymous"></script>
+    <!-- Custom JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.min.js"
+      integrity="sha384-fbbOQedDUMZZ5KreZpsbe1LCZPVmfTnH7ois6mU1QK+m14rQ1l2bGBq41eYeM/fS"
+      crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+</body>
+
+</html>
